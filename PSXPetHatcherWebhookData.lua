@@ -1,3 +1,6 @@
+local username = game:GetService("Players").LocalPlayer.Name
+local userid = game:GetService("Players").LocalPlayer.UserId
+local icon = "https://www.roblox.com/headshot-thumbnail/image?userId="..userid.."&width=420&height=420&format=png"
 local OSTime = os.time()
 local Time = os.date('!*t', OSTime)
 local lobgerz = {
